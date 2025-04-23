@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de Juegos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .game-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            width: 200px;
+            margin: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        .game-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .game-card h3 {
+            font-size: 1.5rem;
+            margin: 10px 0;
+        }
+        .game-card p {
+            font-size: 1rem;
+            color: #666;
+        }
+        .game-card a {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s;
+        }
+        .game-card a:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bienvenidos al Portal de Juegos</h1>
+</header>
+
+<div class="container">
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Juego 1">
+        <h3>Juego 1</h3>
+        <p>Un emocionante juego de aventuras.</p>
+        <a href="#">Jugar Ahora</a>
+    </div>
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Juego 2">
+        <h3>Juego 2</h3>
+        <p>Compite en este increíble juego de carreras.</p>
+        <a href="#">Jugar Ahora</a>
+    </div>
+    <div class="game-card">
+        <img src="https://via.placeholder.com/200x150" alt="Juego 3">
+        <h3>Juego 3</h3>
+        <p>Un juego de rompecabezas desafiante.</p>
+        <a href="#">Jugar Ahora</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2025 Portal de Juegos. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
